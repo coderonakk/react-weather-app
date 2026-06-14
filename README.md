@@ -1,16 +1,74 @@
-# React + Vite
+# React Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple weather application built with React and Tailwind CSS.
 
-Currently, two official plugins are available:
+The app allows users to search for any city and view current weather information in real time using the WeatherAPI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+* Search weather by city name
+* Real-time weather data
+* Displays:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+  * City name
+  * Temperature
+  * Weather condition
+  * Weather icon
+* Loading state handling
+* Error handling for invalid city names
+* Recent searches stored in Local Storage
+* Maximum of 5 recent searches
+* Remove duplicate recent searches
+* Clear recent searches button
+* Responsive UI
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* Tailwind CSS
+* JavaScript
+* WeatherAPI
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/react-weather-app.git
+```
+
+Navigate into the project:
+
+```bash
+cd react-weather-app
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## API
+
+Weather data is provided by WeatherAPI:
+
+https://www.weatherapi.com/
+
+## Future Improvements
+
+* 5-day weather forecast
+* Dark/Light theme toggle
+* Geolocation support
+* Better error messages
+* Environment variables for API key
+
+## Author
+
+Ronak Dadhich
